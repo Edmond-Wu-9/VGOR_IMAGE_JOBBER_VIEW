@@ -1,0 +1,92 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.header, .footer {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+.card {
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title, .card-text {
+  color: #e0e0e0;
+}
+
+.pagination .page-link {
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  border: none;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #3a3a3a;
+  border: none;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #3a3a3a;
+  color: #6c757d;
+}
+
+.input-group {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+input.form-control::placeholder, .Select__single-value {
+  color: #e0e0e0;
+}
+
+.Select__control {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.Select__menu {
+  background-color: #2b2b2b;
+  color: black;
+  border-radius: 10px;
+}
+
+.Select__option {
+  background-color: #2b2b2b;
+  color: black;
+}
+
+.Select__option--is-focused {
+  background-color: #3a3a3a;
+}
+
+.Select__option--is-selected {
+  background-color: #3a3a3a;
+}
+
+.Select__single-value {
+  color: black; /* Ensure selected item is visible */
+}
+
+.Select__placeholder {
+  color: black; /* Lighter color for placeholder */
+}
+
+.Select__indicator {
+  color: black; /* Color for dropdown indicator */
+}
+
+.Select__dropdown-indicator {
+  color: black; /* Color for dropdown indicator */
+}

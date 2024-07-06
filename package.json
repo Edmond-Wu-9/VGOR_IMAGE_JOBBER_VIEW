@@ -1,0 +1,30 @@
+{
+  "name": "jobber-photo-viewer",
+  "private": true,
+  "homepage": "https://git@github.com:Edmond-Wu-9/VGOR_Jobber_Image_Viewer.git",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-select": "^5.8.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

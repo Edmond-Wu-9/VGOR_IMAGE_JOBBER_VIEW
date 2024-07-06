@@ -1,0 +1,30 @@
+/* custom-select.css */
+.Select__control {
+    min-height: 38px;
+  }
+  
+  .Select__menu {
+    z-index: 100;
+  }
+  
+  .Select__menu-list {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .Select__option {
+    padding: 10px;
+  }
+  
+  .Select__option--is-focused {
+    background-color: #f0f0f0;
+  }
+  
+  .Select__option--is-selected {
+    background-color: #d0d0d0;
+  }
+  
+  .Select__single-value {
+    font-size: 16px;
+  }
+  

@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.part {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.images img {
+  width: 100px;
+  margin: 5px;
+}
