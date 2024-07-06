@@ -8,11 +8,12 @@ function App() {
       <header className="header text-white text-center py-3 mb-4">
         <h1>Part Number and Image Viewer</h1>
         <p className="mt-3">
-          Please upload an Excel file with the following column order:
+          Please upload the most recent Jobber! This website uses the following
+          columns:
           <br />
           <strong>
-            Part Number | Year Start | Year End | Make | Model | Image Link 1 |
-            Image Link 2 | ...
+            Part Number | Start Year | End Year | Make | Model | Image 1 | Image
+            2 | ...
           </strong>
         </p>
       </header>

@@ -1,7 +1,7 @@
 {
   "name": "jobber-photo-viewer",
   "private": true,
-  "homepage": "https://git@github.com:Edmond-Wu-9/VGOR_Jobber_Image_Viewer.git",
+  "homepage": "https://Edmond-Wu-9.github.io/VGOR_Jobber_Image_Viewer",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
